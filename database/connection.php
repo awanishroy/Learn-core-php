@@ -1,4 +1,5 @@
 <?php
+    # Here is our database connection related code and we will reuse this everywhere 
     require_once("config/database.php");
     try{
         $database = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_DATABASE);

@@ -1,4 +1,5 @@
 <?php
+    // Here we will write our core logic for add update and delete in our custom controller file.
     $method = $_SERVER['REQUEST_METHOD'];
 
     if ($method != "POST"){
