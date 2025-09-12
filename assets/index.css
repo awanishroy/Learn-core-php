@@ -1,0 +1,39 @@
+:root{
+    --primary-color:red;
+    --secondry-color:green;
+    --dark-color:black;
+    --text-dark:black;
+    --text-light:rgb(255, 255, 255);
+}
+
+.main-heading{
+    color:var(--dark-color);
+}
+
+table tr th{
+    border: .5px solid var(--text-dark);
+}
+
+.bold{
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.form{
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+
+.form-group{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: var(--secondry-color);
+    display: block;
+}
