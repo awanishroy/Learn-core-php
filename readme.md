@@ -1,6 +1,6 @@
 # PHP Learning Project 🚀
 
-A beginner-friendly project for learning **Core PHP** concepts and **Object-Oriented Programming (OOP)**.  
+A beginner-friendly project for learning **Core PHP** concepts and **Object-Oriented Programming (OOP)** HTML, CSS, JAVASCRIPT and JQUERY.  
 This project helps beginners understand PHP fundamentals by building small modules and features step by step.
 
 ---
