@@ -1,0 +1,22 @@
+# (if using Apache) rewrite rules for clean URLs
+
+# index.php as www.yourdomain.in
+# /user-form.php as www.yourdomain.in(Folder Name)/add-user
+
+
+Options -Indexes
+RewriteEngine On
+RewriteBase /LearnProject/
+
+# Remove .php extension (so /file → /file.php if it exists)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
+# Route clean URLs to views/pages/
+RewriteRule ^about/?$ views/pages/about.php [L]
+RewriteRule ^contact/?$ views/pages/contact.php [L]
+RewriteRule ^user/?$ views/pages/user.php [L]
+RewriteRule ^register/?$ views/pages/register.php [L]
+RewriteRule ^home/?$ index.php [L]
+
