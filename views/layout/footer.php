@@ -1,22 +1,15 @@
-<?php # Here we will write html code for footer to make code reusability ?>
+<?php # Here we will write html code for sidebar to make code reusability ?>
 
 <footer>
-
     <div class="row">
-        <li>
-            <ul>Footer</ul>
-        </li>
         
-        <div class="col-1">
-            <!-- <li><a href="">Contact Us</a></li>
-            <li><a href="">About Us</a></li> -->
+        <div class="colomn-4">
+            <a href="">Footer -> We Will Create it in Next Day</a>
         </div>
-        
-        <div class="col-1">
-            <!-- <li><a href="">Contact Us</a></li>
-            <li><a href="">About Us</a></li> -->
-        </div>
-        
-    </div>
 
+        <div class="colomn-6">
+            
+        </div>
+    
+    </div>
 </footer>

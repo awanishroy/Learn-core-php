@@ -23,9 +23,48 @@
 
 
     <body>
-        <h1 class="main-heading">
-            Welcome To User Registration
-        </h1>
+        <section class="register-container">
+            <h2 class="register-heading">Create an Account</h2>
+            <form action="register.php" method="post" class="register-form">
+                <div class="register-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="register-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="register-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Choose a username" required>
+                </div>
+
+                <div class="register-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+                </div>
+
+                <div class="register-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm_password" placeholder="Re-enter your password" required>
+                </div>
+
+                <div class="register-group">
+                <label for="role">Role</label>
+                <select id="role" name="role" required>
+                    <option value="" disabled selected>Select your role</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="admin">Admin</option>
+                </select>
+                </div>
+
+                <button type="submit" class="register-submit">Register</button>
+            </form>
+            </section>
+
 
         <?php 
             /* Including required views*/
