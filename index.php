@@ -1,4 +1,5 @@
 <?php require("database/connection.php"); ?>
+
 <?php
     $user_list = q("SELECT id, name, email, phone FROM users");
 ?>
@@ -8,7 +9,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Core PHP Learning</title>
         <link rel="stylesheet" href="assets/index.css">
     </head>
     <body>

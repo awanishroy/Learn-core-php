@@ -39,3 +39,7 @@ php-learning-project/
 ├── index.css                # CSS file
 ├── .gitignore               # Git ignore file
 └── README.md                # Project documentation
+
+To Run on ubantu -->
+    PHP -S localhost:8000
+

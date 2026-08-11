@@ -11,7 +11,7 @@
         $name = $_POST['phone'];
         $name = $_POST['email'];
 
-        
+        $query = "INSERT INTO users (name, phone, email) VALUES ('$name', '$phone', '$email')";
 
     }
 
