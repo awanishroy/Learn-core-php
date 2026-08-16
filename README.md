@@ -1,7 +1,7 @@
 # 📖 Core PHP Project
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=c42c14&center=true&vCenter=true&width=800&lines=Learning+%7C+Building+%7C+Understanding;Learning+Core+PHP+by+Building+Projects+%F0%9F%90%98;PHP+%7C+MySQL+%7C+HTML+%7C+CSS+%7C+JavaScript;Always+Learning+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=c42c14&center=true&vCenter=true&width=800&lines=Building+%7C+Creating+%7C+Improving;Built+with+Core+PHP+%F0%9F%90%98;PHP+%7C+MySQL+%7C+HTML+%7C+CSS+%7C+JavaScript;Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -14,31 +14,11 @@
 
 ## 🟠 About This Project
 
-This is my **Core PHP learning project**, created to understand how a PHP application is structured and how different parts of a website work together.
+This is a **Core PHP project** created to build a structured PHP-based website using **Core PHP, MySQL, HTML, CSS, and JavaScript**.
 
-Instead of learning PHP only through individual examples, I am using this project to understand **real project structure, database handling, controllers, configuration, assets, and application flow**.
+The project demonstrates how different parts of a web application work together, including **project structure, configuration, database connectivity, SQL queries, user data handling, controllers, and frontend assets**.
 
-> **Learn → Build → Understand → Improve**
-
----
-
-## 🟠 📚 What I'm Learning
-
-Through this project, I am learning:
-
-- 🐘 Core PHP
-- 📁 Project structure
-- 🗂️ File organization
-- ⚙️ Configuration
-- 🗄️ Database connection
-- 🧮 SQL queries
-- 👤 User data handling
-- 🎛️ Controllers
-- 🎨 CSS
-- ⚡ JavaScript
-- 🌐 HTML
-- 🔗 Connecting different parts of a PHP application
-- 🚀 Building a complete PHP-based website
+> **Structure → Data → Logic → Interface → Application**
 
 ---
 
@@ -72,7 +52,7 @@ Learn-core-php/
 
 ### 🎨 `assets/`
 
-Contains the frontend assets used by the project.
+Contains the frontend assets used by the application.
 
 ```text
 assets/
@@ -107,7 +87,7 @@ controller/
 └── save-user-data.php
 ```
 
-Used for handling user data submission.
+Handles user data submission and related application actions.
 
 ---
 
@@ -136,15 +116,9 @@ It connects the application with the database and displays user-related data.
 
 ## 🟠 🗄️ Database
 
-The project uses a database to work with application data.
+The application uses a database to store and retrieve application data.
 
-Example query used in the project:
-
-```php
-$user_list = q("SELECT id, name, email, phone FROM users");
-```
-
-The project currently works with a `users` table containing:
+The current `users` table contains:
 
 ```text
 id
@@ -153,9 +127,15 @@ email
 phone
 ```
 
+Example query:
+
+```php
+$user_list = q("SELECT id, name, email, phone FROM users");
+```
+
 ---
 
-## 🟠 🔄 Project Flow
+## 🟠 🔄 Application Flow
 
 The basic application flow is:
 
@@ -175,14 +155,14 @@ The basic application flow is:
         🖥️ HTML Output
 ```
 
-For saving user data:
+### Saving User Data
 
 ```text
         👤 User
            ↓
       📝 Form Data
            ↓
-   🎛️ Controller
+      🎛️ Controller
            ↓
       🗄️ Database
            ↓
@@ -191,25 +171,21 @@ For saving user data:
 
 ---
 
-## 🟠 🎯 Learning Approach
+## 🟠 🎯 What This Project Demonstrates
 
-```text
-        📖 Learn
-           ↓
-      💡 Understand
-           ↓
-        💻 Code
-           ↓
-       🗄️ Use Database
-           ↓
-       🧪 Test
-           ↓
-       🔧 Improve
-           ↓
-       🚀 Build
-```
-
-The purpose of this project is to understand **how Core PHP can be used to build a structured application**, not just individual PHP files.
+- 🐘 Core PHP development
+- 📁 Structured project organization
+- 🗂️ Separation of application files
+- ⚙️ Configuration handling
+- 🗄️ Database connection
+- 🌱 Database seeding
+- 🧮 SQL queries
+- 👤 User data management
+- 🎛️ Controller-based handling
+- 🌐 PHP and HTML integration
+- 🎨 CSS styling
+- ⚡ JavaScript integration
+- 🔗 Connecting frontend, backend, and database
 
 ---
 
@@ -233,7 +209,7 @@ cd Learn-core-php
 php -v
 ```
 
-### 4️⃣ Start PHP Development Server
+### 4️⃣ Start the PHP Development Server
 
 ```bash
 php -S localhost:8000
@@ -259,31 +235,35 @@ http://localhost:8000
 
 ---
 
-## 🟠 📈 Learning Progress
+## 🟠 🚀 Project Development
 
-- [x] Core PHP project structure
-- [x] File organization
-- [x] Database configuration
-- [x] Database connection
-- [x] Database seed
-- [x] SQL queries
-- [x] User data handling
-- [x] Controller structure
-- [x] CSS assets
-- [x] JavaScript assets
+The project is designed to grow into a more complete Core PHP application.
+
+Planned improvements include:
+
 - [ ] Authentication
-- [ ] Validation
-- [ ] More CRUD operations
-- [ ] Better project architecture
-- [ ] More complete application features
+- [ ] Form validation
+- [ ] Complete CRUD operations
+- [ ] Improved error handling
+- [ ] Better application architecture
+- [ ] Additional database features
+- [ ] More frontend functionality
 
 ---
 
-## 🟠 🚀 Goal
+## 🟠 📌 Project Status
 
-> **Learn Core PHP → Understand Project Structure → Work with Data → Build Real Applications**
+**🚧 Active Development**
 
-This project will continue to grow as I learn more about **Core PHP, databases, application structure, and real-world web development**.
+This project is being continuously developed with new features, improvements, and better application structure.
+
+---
+
+## 🟠 🚀 Vision
+
+> **Build with Core PHP → Work with Data → Connect Components → Create Applications**
+
+The purpose of this repository is to build a practical **Core PHP application** and demonstrate how PHP can be used together with databases and frontend technologies to create a complete website.
 
 ---
 
